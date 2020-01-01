@@ -13,6 +13,8 @@
 		0BE8D6C023BC8A7F0088A8B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BE8D6BE23BC8A7F0088A8B6 /* Main.storyboard */; };
 		0BE8D6C223BC8A8B0088A8B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BE8D6C123BC8A8B0088A8B6 /* Assets.xcassets */; };
 		0BE8D6C523BC8A8B0088A8B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BE8D6C323BC8A8B0088A8B6 /* LaunchScreen.storyboard */; };
+		0BE8D6CD23BC8AEC0088A8B6 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8D6CC23BC8AEB0088A8B6 /* CustomTableViewCell.swift */; };
+		0BE8D6D123BCA03B0088A8B6 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8D6D023BCA03B0088A8B6 /* ProductCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0BE8D6C123BC8A8B0088A8B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BE8D6C423BC8A8B0088A8B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BE8D6C623BC8A8B0088A8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BE8D6CC23BC8AEB0088A8B6 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		0BE8D6D023BCA03B0088A8B6 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				0BE8D6C123BC8A8B0088A8B6 /* Assets.xcassets */,
 				0BE8D6C323BC8A8B0088A8B6 /* LaunchScreen.storyboard */,
 				0BE8D6C623BC8A8B0088A8B6 /* Info.plist */,
+				0BE8D6CC23BC8AEB0088A8B6 /* CustomTableViewCell.swift */,
+				0BE8D6D023BCA03B0088A8B6 /* ProductCollectionViewCell.swift */,
 			);
 			path = "Collection View Demo";
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				0BE8D6BD23BC8A7F0088A8B6 /* ViewController.swift in Sources */,
 				0BE8D6B923BC8A7F0088A8B6 /* AppDelegate.swift in Sources */,
+				0BE8D6D123BCA03B0088A8B6 /* ProductCollectionViewCell.swift in Sources */,
+				0BE8D6CD23BC8AEC0088A8B6 /* CustomTableViewCell.swift in Sources */,
 				0BE8D6BB23BC8A7F0088A8B6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
